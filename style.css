@@ -1,0 +1,94 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #2f3035af;
+    background-image: url(images/engineering.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header{
+    text-align: center;
+    height: 120px;
+    /* width: 1024px; (don't need to be told twice) */
+
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.308);
+    /*height: 40px;*/
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+}
+
+main{
+    height: 400px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 240px;
+    padding-right: 240px;
+    background-color: rgba(0, 0, 0, 0.308);
+
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.308);
+    /* height: 100px; don't need it no more */
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+h1{
+    font-size: 59px;
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+p{
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    /*text-shadow: 2px 2px #fffdfd60;*/
+}
+
+a{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    text-decoration: underline;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.maps{
+    padding-bottom: 100px;
+}
